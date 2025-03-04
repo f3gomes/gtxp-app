@@ -135,7 +135,18 @@ export const participantsList = [
   },
 ];
 
-export const socialIcons = [Linkedin, Instagram, Youtube, Mail];
+export const socialIcons = [
+  {
+    icons: Linkedin,
+    href: "https://www.linkedin.com/company/cbgpl/posts/?feedView=all",
+  },
+  {
+    icons: Instagram,
+    href: "https://www.instagram.com/cbgpl/",
+  },
+  { icons: Youtube, href: "https://www.youtube.com/@cbgpl" },
+  { icons: Mail, href: "mailto:suporte@cbgpl.org.br" },
+];
 
 export const sideIcons = [
   { title: "Palestrantes", icons: MicVocal, href: "/speakers" },
